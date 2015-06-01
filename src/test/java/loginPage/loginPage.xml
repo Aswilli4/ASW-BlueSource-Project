@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Page suite" thread-count="3" parallel="tests">
+<listeners>																<!-- Added Report NG Listeners -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Login Page Testing">
+
+
+
+
+		<classes>
+			<class name="loginPage.EmployeeLogin" />
+
+
+		</classes>
+
+	</test>
+
+
+
+	
+
+ </suite>
+ 

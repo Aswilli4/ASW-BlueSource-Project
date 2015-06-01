@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+    <line>
+      <![CDATA[Success, the login Page Loaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[Success, the main Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Success, the Employees Page Loaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[Success, the Calendar Page Loaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[Success, the Projects Page Loaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[Success, the Directory Page Loaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[Success, the login Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Column First Name is sorted from A to Z]]>
+    </line>
+    <line>
+      <![CDATA[Column Last Name is sorted from Z to A]]>
+    </line>
+    <line>
+      <![CDATA[Column Supervisor is sorted from Z to A]]>
+    </line>
+    <line>
+      <![CDATA[Column Department is sorted from Z to A]]>
+    </line>
+    <line>
+      <![CDATA[Column Office Phone is sorted from Z to A]]>
+    </line>
+    <line>
+      <![CDATA[Column Cell Phone is sorted from A to Z]]>
+    </line>
+    <line>
+      <![CDATA[Column IM Name is sorted from Z to A]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression suite" duration-ms="87468" started-at="2015-05-13T18:16:45Z" finished-at="2015-05-13T18:18:12Z">
+    <groups>
+    </groups>
+    <test name="Employee&#039;s Page Loads" duration-ms="56100" started-at="2015-05-13T18:16:45Z" finished-at="2015-05-13T18:17:41Z">
+      <class name="employeesPage.EmployeeEmployeesLoads">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:employeesPage.EmployeeEmployeesLoads@511baa65]" name="setup" is-config="true" duration-ms="54629" started-at="2015-05-13T14:16:45Z" finished-at="2015-05-13T14:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://bluesourcestaging.herokuapp.com/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[adam.thomas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[asdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmployeeEmployeesTest()[pri:0, instance:employeesPage.EmployeeEmployeesLoads@511baa65]" name="EmployeeEmployeesTest" duration-ms="128" started-at="2015-05-13T14:17:39Z" finished-at="2015-05-13T14:17:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Success, the Employees Page Loaded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmployeeEmployeesTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:employeesPage.EmployeeEmployeesLoads@511baa65]" name="closeBrowser" is-config="true" duration-ms="1334" started-at="2015-05-13T14:17:40Z" finished-at="2015-05-13T14:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- employeesPage.EmployeeEmployeesLoads -->
+    </test> <!-- Employee's Page Loads -->
+    <test name="Directory Page Test Loads" duration-ms="58331" started-at="2015-05-13T18:16:45Z" finished-at="2015-05-13T18:17:43Z">
+      <class name="directoryPage.EmployeeDirectoryLoads">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:directoryPage.EmployeeDirectoryLoads@3d24753a]" name="setup" is-config="true" duration-ms="56927" started-at="2015-05-13T14:16:45Z" finished-at="2015-05-13T14:17:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://bluesourcestaging.herokuapp.com/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[adam.thomas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[asdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmployeeDirectoryTest()[pri:0, instance:directoryPage.EmployeeDirectoryLoads@3d24753a]" name="EmployeeDirectoryTest" duration-ms="153" started-at="2015-05-13T14:17:42Z" finished-at="2015-05-13T14:17:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Success, the Directory Page Loaded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmployeeDirectoryTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:directoryPage.EmployeeDirectoryLoads@3d24753a]" name="closeBrowser" is-config="true" duration-ms="1240" started-at="2015-05-13T14:17:42Z" finished-at="2015-05-13T14:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- directoryPage.EmployeeDirectoryLoads -->
+    </test> <!-- Directory Page Test Loads -->
+    <test name="Project Page Loads" duration-ms="58026" started-at="2015-05-13T18:16:45Z" finished-at="2015-05-13T18:17:43Z">
+      <class name="ProjectsPage.EmployeeProjectsLoads">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ProjectsPage.EmployeeProjectsLoads@11531931]" name="setup" is-config="true" duration-ms="56219" started-at="2015-05-13T14:16:45Z" finished-at="2015-05-13T14:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://bluesourcestaging.herokuapp.com/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[adam.thomas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[asdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmployeeProjectsTest()[pri:0, instance:ProjectsPage.EmployeeProjectsLoads@11531931]" name="EmployeeProjectsTest" duration-ms="294" started-at="2015-05-13T14:17:41Z" finished-at="2015-05-13T14:17:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Success, the Projects Page Loaded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmployeeProjectsTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ProjectsPage.EmployeeProjectsLoads@11531931]" name="closeBrowser" is-config="true" duration-ms="1506" started-at="2015-05-13T14:17:41Z" finished-at="2015-05-13T14:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ProjectsPage.EmployeeProjectsLoads -->
+    </test> <!-- Project Page Loads -->
+    <test name="Calendar Page Loads" duration-ms="56864" started-at="2015-05-13T18:16:45Z" finished-at="2015-05-13T18:17:42Z">
+      <class name="calendarPage.EmployeeCalendarLoads">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:calendarPage.EmployeeCalendarLoads@edf4efb]" name="setup" is-config="true" duration-ms="55248" started-at="2015-05-13T14:16:45Z" finished-at="2015-05-13T14:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://bluesourcestaging.herokuapp.com/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[adam.thomas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[asdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmployeeCalendarTest()[pri:0, instance:calendarPage.EmployeeCalendarLoads@edf4efb]" name="EmployeeCalendarTest" duration-ms="160" started-at="2015-05-13T14:17:40Z" finished-at="2015-05-13T14:17:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Success, the Calendar Page Loaded<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmployeeCalendarTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:calendarPage.EmployeeCalendarLoads@edf4efb]" name="closeBrowser" is-config="true" duration-ms="1451" started-at="2015-05-13T14:17:40Z" finished-at="2015-05-13T14:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- calendarPage.EmployeeCalendarLoads -->
+    </test> <!-- Calendar Page Loads -->
+    <test name="Login Page Testing" duration-ms="61769" started-at="2015-05-13T18:16:45Z" finished-at="2015-05-13T18:17:47Z">
+      <class name="loginPage.EmployeeLogin">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:loginPage.EmployeeLogin@7a79be86]" name="setup" is-config="true" duration-ms="34877" started-at="2015-05-13T14:16:45Z" finished-at="2015-05-13T14:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://bluesourcestaging.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmployeeLoginTest(java.lang.String, java.lang.String)[pri:0, instance:loginPage.EmployeeLogin@7a79be86]" name="EmployeeLoginTest" duration-ms="19367" started-at="2015-05-13T14:17:20Z" finished-at="2015-05-13T14:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam.thomas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Success, the login Page Loaded<br>]]>
+            </line>
+            <line>
+              <![CDATA[Success, the main Page Loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmployeeLoginTest -->
+        <test-method status="PASS" signature="EmployeeLogoutTest()[pri:0, instance:loginPage.EmployeeLogin@7a79be86]" name="EmployeeLogoutTest" duration-ms="5471" started-at="2015-05-13T14:17:39Z" finished-at="2015-05-13T14:17:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Success, the login Page Loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmployeeLogoutTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:loginPage.EmployeeLogin@7a79be86]" name="closeBrowser" is-config="true" duration-ms="2030" started-at="2015-05-13T14:17:44Z" finished-at="2015-05-13T14:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- loginPage.EmployeeLogin -->
+    </test> <!-- Login Page Testing -->
+    <test name="Directory Page Column Sort" duration-ms="87464" started-at="2015-05-13T18:16:45Z" finished-at="2015-05-13T18:18:12Z">
+      <class name="directoryPage.ColumnSorts$EmployeeDirectoryLoads">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="setup" is-config="true" duration-ms="58026" started-at="2015-05-13T14:16:45Z" finished-at="2015-05-13T14:17:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://bluesourcestaging.herokuapp.com/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[adam.thomas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[asdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ColumnSortFirstNameTest()[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="ColumnSortFirstNameTest" duration-ms="4617" started-at="2015-05-13T14:17:43Z" finished-at="2015-05-13T14:17:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Column First Name is sorted from A to Z]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ColumnSortFirstNameTest -->
+        <test-method status="PASS" signature="ColumnSortLastNameTest()[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="ColumnSortLastNameTest" duration-ms="3876" started-at="2015-05-13T14:17:47Z" finished-at="2015-05-13T14:17:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Column Last Name is sorted from Z to A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ColumnSortLastNameTest -->
+        <test-method status="PASS" signature="ColumnSortSupervisorTest()[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="ColumnSortSupervisorTest" duration-ms="3846" started-at="2015-05-13T14:17:51Z" finished-at="2015-05-13T14:17:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Column Supervisor is sorted from Z to A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ColumnSortSupervisorTest -->
+        <test-method status="PASS" signature="ColumnSortDeptTest()[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="ColumnSortDeptTest" duration-ms="3962" started-at="2015-05-13T14:17:55Z" finished-at="2015-05-13T14:17:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Column Department is sorted from Z to A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ColumnSortDeptTest -->
+        <test-method status="PASS" signature="ColumnSortOfficePhoneTest()[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="ColumnSortOfficePhoneTest" duration-ms="3896" started-at="2015-05-13T14:17:59Z" finished-at="2015-05-13T14:18:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Column Office Phone is sorted from Z to A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ColumnSortOfficePhoneTest -->
+        <test-method status="PASS" signature="ColumnSortCellPhoneTest()[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="ColumnSortCellPhoneTest" duration-ms="3951" started-at="2015-05-13T14:18:03Z" finished-at="2015-05-13T14:18:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Column Cell Phone is sorted from A to Z]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ColumnSortCellPhoneTest -->
+        <test-method status="PASS" signature="ColumnSortIMNameTest()[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="ColumnSortIMNameTest" duration-ms="4064" started-at="2015-05-13T14:18:07Z" finished-at="2015-05-13T14:18:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Column IM Name is sorted from Z to A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ColumnSortIMNameTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:directoryPage.ColumnSorts$EmployeeDirectoryLoads@96532d6]" name="closeBrowser" is-config="true" duration-ms="1213" started-at="2015-05-13T14:18:11Z" finished-at="2015-05-13T14:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- directoryPage.ColumnSorts$EmployeeDirectoryLoads -->
+    </test> <!-- Directory Page Column Sort -->
+  </suite> <!-- Regression suite -->
+</testng-results>

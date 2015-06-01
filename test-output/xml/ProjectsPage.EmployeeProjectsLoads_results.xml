@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Project Page Loads"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="31.753">
+  <properties />
+  
+  
+            <testcase name="EmployeeProjectsTest" time="31.753" classname="ProjectsPage.EmployeeProjectsLoads" />
+      
+</testsuite>

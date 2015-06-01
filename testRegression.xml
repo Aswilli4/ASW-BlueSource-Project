@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression suite" thread-count="6" parallel="tests">
+	<listeners>																<!-- Added Report NG Listeners -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	
+
+
+	<test name="Project Page Loads">
+
+		<classes>
+			<class name="ProjectsPage.EmployeeProjectsLoads" />
+
+
+		</classes>
+	</test>
+
+	<test name="Login Page Testing">
+
+
+
+
+		<classes>
+			<class name="loginPage.EmployeeLogin" />
+
+
+		</classes>
+
+	</test>
+
+	<test name="Employee's Page Loads">
+
+		<classes>
+			<class name="employeesPage.EmployeeEmployeesLoads" />
+
+
+		</classes>
+	</test>
+
+	<test name="Directory Page Test Loads">
+
+		<classes>
+			<class name="directoryPage.EmployeeDirectoryLoads" />
+
+
+
+		</classes>
+	</test>
+	<test name="Directory Page Column Sort">
+
+		<classes>
+
+			<class name="directoryPage.ColumnSorts" />
+
+		</classes>
+	</test>
+
+	<test name="Calendar Page Loads">
+
+		<classes>
+			<class name="calendarPage.EmployeeCalendarLoads" />
+
+
+		</classes>
+	</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <test name="ChromeTest"> <classes> <class name="ProjectsPage.EmployeeProjectsLoads" 
+		/> <class name="loginPage.EmployeeLogin" /> <class name="loginPage.DataProviderWithExcel_001"></class> 
+		<class name="employeesPage.EmployeeEmployeesLoads" /> <class name="directoryPage.EmployeeDirectoryLoads" 
+		/> <class name="directoryPage.ColumnSorts" /> <class name="calendarPage.EmployeeCalendarLoads" 
+		/> </classes> </test> <test name="FirefoxTest"> <parameter name="browser" 
+		value="Firefox"></parameter> <classes> <class name="ProjectsPage.EmployeeProjectsLoads" 
+		/> <class name="loginPage.EmployeeLogin" /> <class name="loginPage.DataProviderWithExcel_001"></class> 
+		<class name="employeesPage.EmployeeEmployeesLoads" /> <class name="directoryPage.EmployeeDirectoryLoads" 
+		/> <class name="directoryPage.ColumnSorts" /> <class name="calendarPage.EmployeeCalendarLoads" 
+		/> </classes> </test> -->
+</suite>
+<!-- <suite name="Username Suite" thread-count="1" parallel="tests"> <listeners> 
+	<listener class-name="org.uncommons.reportng.HTMLReporter" /> <listener class-name="org.uncommons.reportng.JUnitXMLReporter" 
+	/> </listeners> <parameter name="getURL" value="http://bluesourcestaging.herokuapp.com/login"></parameter> 
+	<parameter name="strUsername" value="adam.thomas"></parameter> <parameter 
+	name="strPassword" value="asdf"></parameter> <parameter name="browser" value="Chrome"></parameter> 
+	<test name="Username Testing"> <classes> <class name="loginPage.DataProviderWithExcel_001"></class> 
+	</classes> </test> </suite> -->

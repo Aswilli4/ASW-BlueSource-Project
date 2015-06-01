@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Directory Page Column Sort"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="163.954">
+  <properties />
+  
+  
+            <testcase name="ColumnSortSupervisorTest" time="19.451" classname="directoryPage.ColumnSorts$EmployeeDirectoryLoads" />
+                <testcase name="ColumnSortLastNameTest" time="23.876" classname="directoryPage.ColumnSorts$EmployeeDirectoryLoads" />
+                <testcase name="ColumnSortCellPhoneTest" time="22.406" classname="directoryPage.ColumnSorts$EmployeeDirectoryLoads" />
+                <testcase name="ColumnSortOfficePhoneTest" time="19.681" classname="directoryPage.ColumnSorts$EmployeeDirectoryLoads" />
+                <testcase name="ColumnSortDeptTest" time="19.071" classname="directoryPage.ColumnSorts$EmployeeDirectoryLoads" />
+                <testcase name="ColumnSortFirstNameTest" time="40.318" classname="directoryPage.ColumnSorts$EmployeeDirectoryLoads" />
+                <testcase name="ColumnSortIMNameTest" time="19.151" classname="directoryPage.ColumnSorts$EmployeeDirectoryLoads" />
+      
+</testsuite>

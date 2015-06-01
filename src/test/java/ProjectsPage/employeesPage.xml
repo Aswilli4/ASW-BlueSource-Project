@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project Tab suite" thread-count="2" parallel="tests">
+	<listeners>																<!-- Added Report NG Listeners -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Project Page Loads">
+
+		<classes>
+			<class name="ProjectsPage.EmployeeProjectsLoads" />
+
+
+		</classes>
+	</test>
+
+</suite>
+
